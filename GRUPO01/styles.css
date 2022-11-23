@@ -1,0 +1,165 @@
+body{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+*{
+	margin:0;
+	padding: 0;
+    text-decoration: none;
+    list-style: none;
+	box-sizing: border-box;
+}
+nav{
+    background: #68a5b8;
+    height: 80px;
+    width: 100%;
+}
+
+.enlace{
+    position: absolute;
+    padding: 20px 50px;
+}
+
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: #fff;
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform:capitalize;
+}
+
+li a.active, li a:hover{
+    background: #007f90;
+    transition: .5s;
+}
+
+header{
+	width: 90%;
+	margin: 0 auto;
+	display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+section.banner{
+	background: linear-gradient(to left, rgb(255 255 255), rgb(234 243 240));
+	padding: 3rem 0;
+}
+.containerB{
+	width: 90%;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
+	grid-gap: 2rem;
+}
+
+.col1{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.imgBanner{
+	width: 70%;
+}
+.col2{
+	padding: 1rem 2rem;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+h1{
+	font-size: 2rem;
+	color: #414444;
+}
+#txtBanner{
+	margin: 2rem 0;
+	font-size: 1.3rem;
+	line-height: 2rem;
+}
+.btnBanner{
+	background: #68a2b8;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+.services{
+	padding: 3rem 0;
+}
+.subServices{
+	text-align: center;
+    padding-bottom: 2rem;
+    color: #4c4c4c;
+	background-color:#a9c9d3
+}
+.subServices01{
+	text-align: center;
+    padding-bottom: 2rem;
+    color: #4c4c4c;
+	background-color:#ffffff
+}
+.subServicesS{
+	text-align: center;
+	color: #4c4c4c;
+}
+.subServicesss{
+	text-align: center;
+    color: #000000;
+	background-color:#2590b1
+}
+.Redes{
+	text-align: center;
+    padding-bottom: 2rem;
+    color: #4c4c4c;
+	background-color:#2097bb
+}
+
+.containerS{
+	width: 90%;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: repeat(auto-fit,minmax(18rem,1fr));
+	grid-gap: 1.2rem;
+}
+.boxS{
+	padding: 2rem 2rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: #4c4c4c;
+	box-shadow: 0px 0px 55px 5px rgb(0 0 0 / 6%);
+	
+}
+.boxSS{
+	padding: 2rem 2rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: #4c4c4c;
+	box-shadow: 0px 0px 55px 5px rgb(0 0 0 / 6%);
+	background-color: #faffff;
+}
+
+.boxS img{ 
+	width: 100px;
+}
+h3{
+	color: #4c4c4c;
+	margin: 10px 0;
+}
+.boxS p{
+	text-align: center;
+}
